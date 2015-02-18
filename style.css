@@ -1,0 +1,143 @@
+body {
+  font-size: 20px;
+}
+
+div  {
+  position: absolute;
+  padding: 0; 
+  margin: 0;
+  border: 1px solid black;
+}
+
+.wraper {
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 600px;
+}
+.left-1 {
+  left: 0;
+}
+
+.left-2 {
+	left: 200px;
+  position: abosulute;
+}
+
+.left-3 {
+  left: 400px;
+}
+
+.top-1 {
+  top: 0;
+}
+
+.top-2 {
+  top: 200px;
+}
+
+.top-3 {
+  top: 400px;
+}
+
+.width-1 {
+  width: 200px;
+}
+
+.width-2 {
+  width: 400px;
+}
+
+.width-3 {
+  width: 600px;
+}
+
+.height-1 {
+  height: 200px;
+}
+
+.height-2 {
+  height: 400px;
+}
+
+.height-3 {
+  height: 600px;
+}
+
+span {
+  position: relative;
+}
+
+.valign-top-1 .valign-top-2 .valign-top-3  {
+  top: 0;
+}
+
+.valign-center-1 {
+  top: 80px;
+}
+
+.valign-center-2 {
+  top: 180px;
+}
+
+.valign-center-3 {
+  top: 280px;
+}
+
+.valign-bottom-1 {
+  top: 180px;
+}
+
+.valign-bottom-2 {
+  top: 380px;
+}
+
+.valign-bottom-3 {
+  top: 580px;
+}
+
+.alingn-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.text {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 630px;
+}
+
+li {
+  margin: 15px;
+}
+
+a {
+  color: #4444ff;
+}
+
+a:hover {
+  color: #0602c0;
+}
+
+a:active {
+  color: #cc2222;
+}
+
+.error {
+  color: #cc1111;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	border: 1px solid #4444aa;
+	margin: 30px 10px;
+	padding: 10px;
+	width: 550px;
+}
